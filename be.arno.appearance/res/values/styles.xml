@@ -1,0 +1,129 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <!--
+    <style name="textviewLabelStyleGirly" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#FF00CC</item>
+		<item name="android:textSize">22sp</item>
+		<item name="android:paddingLeft">48dp</item>
+    	<item name="android:layout_marginTop">8dp</item>
+    	<item name="android:layout_marginLeft">8dp</item>
+       	<item name="android:layout_marginRight">8dp</item>		
+       	<item name="android:layout_marginBottom">-10dp</item>
+	</style> -->
+	
+	 <style name="textviewLabelStyleGirly" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#FF00CC</item>
+		<item name="android:textSize">18sp</item>
+    	<item name="android:layout_marginTop">8dp</item>
+    	<item name="android:layout_marginLeft">8dp</item>
+       	<item name="android:layout_marginRight">8dp</item>
+       	<item name="android:layout_marginBottom">-4dp</item>	
+       	<item name="android:drawablePadding">8dp</item>
+       	<item name="android:drawableLeft">@drawable/textview_label_carre_girly</item>
+       	<item name="android:background">@drawable/souligement_label</item>
+	</style>
+
+	<style name="textviewContentStyleGirly" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#FF00CC</item>
+		<item name="android:textSize">22sp</item>
+    	<item name="android:layout_marginTop">8dp</item>
+    	<item name="android:layout_marginLeft">8dp</item>
+       	<item name="android:layout_marginRight">8dp</item>		
+       	<item name="android:layout_marginBottom">8dp</item>
+	</style>
+	
+	<style name="textviewContentLargeStyleGirly" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#FF00CC</item>
+		<item name="android:textSize">32sp</item>
+    	<item name="android:layout_marginTop">8dp</item>
+    	<item name="android:layout_marginLeft">8dp</item>
+       	<item name="android:layout_marginRight">8dp</item>		
+       	<item name="android:layout_marginBottom">8dp</item>
+	</style>
+		 
+	<style name="textviewMediumStyleGirly" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#FF00CC</item>
+		<item name="android:textSize">22sp</item>
+		<item name="android:paddingLeft">48dp</item>
+    	<item name="android:layout_marginTop">8dp</item>
+    	<item name="android:layout_marginLeft">8dp</item>
+       	<item name="android:layout_marginRight">8dp</item>		
+       	<item name="android:layout_marginBottom">-10dp</item>
+	</style>
+	 
+    <style name="bttnStyleGirly" parent="@android:style/Widget.Button">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">@drawable/girly_button_text_color</item>
+		<item name="android:gravity">center</item>
+		<item name="android:background">@drawable/girly_button</item>
+		<item name="android:height">64dp</item>
+		<item name="android:paddingLeft">32dp</item>
+		<item name="android:paddingRight">32dp</item>
+    	<item name="android:layout_margin">8dp</item>
+	</style>
+
+    <style name="edtxStyleGirly" parent="@android:style/Widget.EditText">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#FF00CC</item>
+		<item name="android:background">@drawable/girly_textedit</item>
+		<item name="android:height">64dp</item>
+		<item name="android:paddingRight">32dp</item>
+		<item name="android:drawableLeft">@drawable/triangle</item>
+    	<item name="android:layout_margin">8dp</item>
+    	<item name="android:drawablePadding">32dp</item>
+	</style>
+
+    <style name="ratingbarStyleGirly" parent="@android:style/Widget.RatingBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/ratingbar_full_girly</item>
+        <item name="android:minHeight">64dp</item>
+        <item name="android:thumb">@null</item>
+    	<item name="android:layout_margin">8dp</item>
+	</style>
+
+    <style name="checkboxStyleGirly" parent="@android:style/Widget.CompoundButton.CheckBox">
+		<item name="android:textSize">22sp</item>
+		<item name="android:textColor">#FF00CC</item>
+		<item name="android:button">@drawable/btn_checkbox_girly</item>
+    	<item name="android:layout_margin">8dp</item>
+    	<item name="android:paddingLeft">16dp</item>
+    	<!-- TODO : à vérifier -->
+    	<item name="android:paddingRight">32dp</item>
+	</style>
+    
+    <style name="radioStyleGirly" parent="@android:style/Widget.CompoundButton.RadioButton">
+		<item name="android:textSize">22sp</item>
+		<item name="android:textColor">#FF00CC</item>
+		<item name="android:button">@drawable/btn_radio_girly</item>
+    	<item name="android:layout_margin">8dp</item>
+    	<item name="android:paddingLeft">16dp</item>
+    	<!-- TODO : à vérifier -->
+    	<item name="android:paddingRight">32dp</item>
+	</style>
+    
+    <style name="toggleStyleGirly" parent="@android:style/Widget.Button.Toggle">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">@drawable/girly_button_text_color</item>
+		<item name="android:background">@drawable/btn_toggle_bg_girly</item>
+    	<item name="android:layout_margin">8dp</item>
+		<item name="android:height">64dp</item>
+	</style>
+   
+</resources>

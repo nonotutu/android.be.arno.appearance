@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+     <array name="choices">
+        <item>Choice 1</item>
+        <item>Choice 2</item>
+        <item>Choice 3</item>
+        <item>Choice 4</item>
+        <item>Choice 5</item>
+        <item>Choice 6</item>
+        <item>Choice 7</item>
+        <item>Choice 8</item>
+        <item>Choice 9</item>
+        <item>Choice 10</item>
+        <item>Choice 11</item>
+        <item>Choice 12</item>
+        <item>Choice 13</item>
+        <item>Choice 14</item>
+        <item>Choice 15</item>
+        <item>Choice 16</item>
+        <item>Choice 17</item>
+        <item>Choice 18</item>
+        <item>Choice 19</item>
+        <item>Choice 20</item>
+		<item>Choice 21</item>
+	</array>
+</resources>
